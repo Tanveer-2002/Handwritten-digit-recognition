@@ -5,18 +5,18 @@
 <h3>Repository Structure</h3>
 <pre>
 Handwritten-digit-recognition/
-├── basicWith_NN            # Fodler containing a jupyter notebook file which explain the whole implementation.
-├── With_raw_image          # Folder containing 
+├── basicWith_NN            # Fodler containing a jupyter notebook file which explains the whole implementation.
+├── With_raw_image
     ├── RAW_image           # Folder containing RAW images
     ├── ProcessedImage      # Folder containing preprocessed training and testing immages
     ├── preprocess.py       # File containing the preprocessing program
     ├── mainNN.py           # File containing the main NN program
-├── model_application       # Folder containing an application program which is baesd on mainNN.py output data
+├── model_application       # Folder containing an application program which is based on mainNN.py output data
 </pre>
 
 <h3>Requirements<h3>
 <pre>
-- Python 3.8+
+- Python 3.10 or 3.11
 - NumPy
 - OpenCV (for reading image files)
 </pre>
